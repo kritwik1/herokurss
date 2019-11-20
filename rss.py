@@ -6,7 +6,7 @@ def hello():
 	return "Hello"
 @app.route('/index')
 def cool_form():
-	return render_template('index.html')
+	return '<h1>Deployed</h1>'
 @app.route('/rss')
 def rss():
     return render_template('rss.xml')
